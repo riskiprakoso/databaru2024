@@ -24,7 +24,7 @@ class Biaya extends CI_Controller {
         
         if($this->input->post("tambah")){
             $this->Biaya_model->tambahDataUMR();     
-            redirect('biaya');
+            redirect('index.php/biaya');
         }
 
     }
