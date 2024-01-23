@@ -53,4 +53,4 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route["biaya"] = 'biaya';
+$route['biaya'] = 'biaya/index';
