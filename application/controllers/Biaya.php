@@ -31,7 +31,7 @@ class Biaya extends CI_Controller {
     public function hapus($id)
     {
         $this->Biaya_model->hapusDataUMR($id);
-        redirect('biaya'); 
+        redirect('index.php/biaya'); 
     }
     
     public function edit($id)
@@ -45,7 +45,7 @@ class Biaya extends CI_Controller {
 
         if($this->input->post("edit")){
             $this->Biaya_model->ubahDataUMR();     
-            redirect('biaya');
+            redirect('index.php/biaya');
         }
 
     }
