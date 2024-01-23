@@ -3,7 +3,7 @@
         <div class="col-md">
         <h4>TABEL BIAYA HIDUP</h4>
         <a href="<?= base_url('index.php/biaya/tambah')?>" class="btn btn-primary">TAMBAH DATA</a>
-        <table class="table mt-3">
+        <table class="table mt-3" id="example">
 
 
         <div>
