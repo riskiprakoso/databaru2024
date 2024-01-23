@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md">
         <h4>TABEL BIAYA HIDUP</h4>
-        <a href="<?= base_url('biaya/tambah')?>" class="btn btn-primary">TAMBAH DATA</a>
+        <a href="<?= base_url('index.php/biaya/tambah')?>" class="btn btn-primary">TAMBAH DATA</a>
         <table class="table mt-3">
 
 
@@ -40,8 +40,8 @@
                         <td><?= $um["total_banyak"] ?></td>
                         <td>Rp. <?= $um["umr"] ?></td>
                         <td>
-                            <a href="<?= base_url("biaya/edit/"). $um["id"]?>" class="btn btn-warning">Edit</a>
-                            <a href="<?= base_url("biaya/hapus/"). $um["id"]?>" class="btn btn-danger">Hapus</a>
+                            <a href="<?= base_url("index.php/biaya/edit/"). $um["id"]?>" class="btn btn-warning">Edit</a>
+                            <a href="<?= base_url("index.php/biaya/hapus/"). $um["id"]?>" class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>
                 <?php endforeach;?>
