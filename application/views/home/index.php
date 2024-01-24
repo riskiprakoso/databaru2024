@@ -1,10 +1,10 @@
 ?<?php
 $gambar = "pagi1.jpg";
-if ($sapa === "Selamat Pagi") {
+if ($sapa == "Selamat Pagi") {
     $gambar = "pagi1.jpg";
-} elseif ($sapa === "Selamat Sore") {
+} elseif ($sapa == "Selamat Sore") {
     $gambar = "sore.jpg";
-} elseif($sapa === "Selamat Malam") {
+} elseif($sapa == "Selamat Malam") {
     $gambar = "malam.jpg";
 }
 
