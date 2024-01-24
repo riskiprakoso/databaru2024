@@ -21,7 +21,7 @@ private function greet() {
     $night_start = strtotime("18:00:00");
 
     if ($morning_start <= strtotime($current_time) && strtotime($current_time) < $afternoon_start) {
-        $sapa= "Selamat Pagi!";
+        $sapa= "Selamat Pagi";
     } elseif ($afternoon_start <= strtotime($current_time) && strtotime($current_time) < $night_start) {
         $sapa= "Selamat Sore";
     } else {

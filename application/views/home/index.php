@@ -1,5 +1,5 @@
 ?<?php
-$gambar = "pagi1.jpg";
+// $gambar = "pagi1.jpg";
 if ($sapa == "Selamat Pagi") {
     $gambar = "pagi1.jpg";
 } elseif ($sapa == "Selamat Sore") {
@@ -15,7 +15,7 @@ if ($sapa == "Selamat Pagi") {
             <div class="card mt-3">
                 <img class="card-img-top" src="<?= base_url('assets/img/') . $gambar ?>" alt="Card image cap">
                 <div class="card-body">
-                    <h4 class="card-text">Hello <?= $sapa ?></h4>
+                    <h4 class="card-text">Hello <?= $sapa ?>!</h4>
                 </div>
             </div>
         </div>
