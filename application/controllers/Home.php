@@ -10,7 +10,7 @@ class Home extends CI_Controller {
             $data["gambar"] = "pagi1.jpg";
         } elseif ($data['sapa'] === "Selamat Sore") {
             $data["gambar"] = "sore.jpg";
-        } else {
+        } elseif($data['sapa'] === "Selamat Malam") {
             $data["gambar"] = "malam.jpg";
         }
 
