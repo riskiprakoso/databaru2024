@@ -1,5 +1,5 @@
 ?<?php
-
+$gambar = "pagi1.jpg";
 if ($sapa === "Selamat Pagi") {
     $gambar = "pagi1.jpg";
 } elseif ($sapa === "Selamat Sore") {
