@@ -6,14 +6,6 @@ class Home extends CI_Controller {
         $data['judul'] = 'Daftar Pendapatan Ekonomi';
         $data['sapa'] = $this->greet();
         
-        if ($data['sapa'] === "Selamat Pagi") {
-            $data["gambar"] = "pagi1.jpg";
-        } elseif ($data['sapa'] === "Selamat Sore") {
-            $data["gambar"] = "sore.jpg";
-        } elseif($data['sapa'] === "Selamat Malam") {
-            $data["gambar"] = "malam.jpg";
-        }
-
         $this->load->view('templates/header', $data);
         $this->load->view('home/index', $data);
         $this->load->view('templates/footer');

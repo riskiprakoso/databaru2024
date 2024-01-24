@@ -1,3 +1,14 @@
+?<?php
+
+if ($sapa === "Selamat Pagi") {
+    $gambar = "pagi1.jpg";
+} elseif ($sapa === "Selamat Sore") {
+    $gambar = "sore.jpg";
+} elseif($sapa === "Selamat Malam") {
+    $gambar = "malam.jpg";
+}
+
+?>
 <div class="container">
     <div class="row">
         <div class="col">
